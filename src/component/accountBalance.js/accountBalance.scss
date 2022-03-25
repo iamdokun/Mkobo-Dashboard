@@ -1,0 +1,72 @@
+.accountBalanceWrap {
+  max-width: 400px;
+  height: 180px;
+  margin: 0 auto;
+  background: linear-gradient(89.79deg, #4181f9 1.82%, #0047cc 100%);
+  border-radius: 5px;
+  position: relative;
+
+  .brandLine {
+    position: absolute;
+    right: 0;
+    top: 20px;
+  }
+
+  .accountTitle {
+    padding: 1.1rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 1rem 0;
+
+    small {
+      font-family: "Axiforma";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 24px;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    button {
+      background: #ffffff;
+      border-radius: 4px;
+      border: none;
+      font-family: "Axiforma";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 182.4%;
+      text-align: center;
+      color: #0047cc !important;
+      padding: 5px 1rem;
+    }
+  }
+
+  .banlance {
+    display: flex;
+    padding: 1rem;
+    p {
+      font-family: "Axiforma";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 59px;
+      color: #ffffff;
+    }
+
+    small {
+      color: #fff;
+      font-family: "Axiforma";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12.14px;
+      line-height: 20px;
+    }
+    span {
+      color: #fff;
+      margin-top: 10px;
+      margin-left: 16px;
+    }
+  }
+}

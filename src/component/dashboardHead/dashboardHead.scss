@@ -1,0 +1,52 @@
+.dashboardHeadWrap {
+  height: 127px;
+  padding: 2rem 3rem 0 2rem;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+    .headWrap {
+      h5 {
+        font-family: "Axiforma";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 26px;
+        text-align: center;
+        color: #141623;
+        text-transform: uppercase;
+      }
+    }
+
+    .profileWrap {
+      background: #0047cc;
+      border-radius: 5px;
+      padding: 7px 1rem;
+
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li:nth-child(2) {
+          margin: 0px 18px 0 32px;
+        }
+        li:nth-child(3) {
+          font-family: "Axiforma";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 22px;
+          color: #ffffff;
+          margin-right: 6px;
+        }
+        li:last-child {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

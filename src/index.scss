@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Axiforma";
+  src: url("./asset/fonts/Axiforma/Axiforma-Light.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url("./asset/fonts/Axiforma/Axiforma-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+.alice-carousel__dots {
+  display: none;
+}
+
+.alice-carousel__next-btn {
+  position: absolute;
+  width: 40px !important;
+  right: -30px;
+  top: 35%;
+}
+.alice-carousel__next-btn-item {
+  font-size: 1.5rem;
+}
+
+.alice-carousel__prev-btn {
+  position: absolute;
+  width: 40px !important;
+  left: -30px;
+  top: 35%;
+}
+.alice-carousel__prev-btn-item {
+  font-size: 1.5rem;
+}
+.alice-carousel__prev-btn-item:hover,
+.alice-carousel__next-btn-item:hover {
+  color: #0047cc !important;
+}

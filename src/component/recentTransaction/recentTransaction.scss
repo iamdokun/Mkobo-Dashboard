@@ -1,0 +1,99 @@
+.recentTransactionAndPastDays {
+  margin-top: 2.5rem;
+
+  h4 {
+    font-family: "Axiforma";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #717171;
+    margin-bottom: 1rem;
+  }
+
+  .recentTransactionWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .recentTransaction {
+      width: 262px;
+      height: 25px;
+      background: #eff2f8;
+      border-radius: 9px;
+      padding: 4px 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .all {
+        flex: 2;
+
+        button {
+          width: 100%;
+          cursor: pointer;
+          font-family: "Axiforma";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          border-radius: 10px;
+          color: #0047cc;
+          border: 0;
+        }
+      }
+      .debit {
+        flex: 2;
+
+        button {
+          width: 100%;
+          cursor: pointer;
+          font-family: "Axiforma";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          border-radius: 10px;
+          color: #0047cc;
+          border: 0;
+        }
+      }
+      .credit {
+        flex: 2;
+
+        button {
+          width: 100%;
+          cursor: pointer;
+          font-family: "Axiforma";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          border-radius: 10px;
+          color: #0047cc;
+          border: 0;
+        }
+      }
+    }
+
+    .pastDate {
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li:nth-child(2) {
+          margin: 0 6px 0 12px;
+          font-family: "Axiforma";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 24px;
+          color: #0047cc;
+        }
+      }
+    }
+  }
+}
+.selected {
+  background: #0047cc;
+  color: #fff !important;
+}

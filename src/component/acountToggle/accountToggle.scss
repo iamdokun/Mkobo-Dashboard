@@ -1,0 +1,48 @@
+.acctToggleWrap {
+  max-width: 800px;
+  height: 36px;
+  margin: 10px auto;
+  background: #eff2f8;
+  border-radius: 10px;
+  padding: 5px 16px;
+  display: flex;
+  align-items: center;
+
+  .spendingAcct {
+    flex: 3;
+
+    button {
+      width: 100%;
+      height: 25px;
+      cursor: pointer;
+      font-family: "Axiforma";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      border-radius: 10px;
+      color: #0047cc;
+      border: 0;
+    }
+  }
+  .linkedAccts {
+    flex: 3;
+
+    button {
+      cursor: pointer;
+      width: 100%;
+      height: 25px;
+      border-radius: 10px;
+      border: 0;
+      font-family: "Axiforma";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      color: #0047cc;
+    }
+  }
+}
+
+.selected {
+  background: #0047cc;
+  color: #fff !important;
+}

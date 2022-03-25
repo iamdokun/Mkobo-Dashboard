@@ -1,0 +1,100 @@
+.otherCardWrap {
+  max-width: 400px;
+  height: 180px;
+  margin: 0 auto;
+  border-radius: 5px;
+  position: relative;
+  padding: 1rem;
+
+  @media (max-width: 1600px) {
+    max-width: 300px;
+  }
+  @media (max-width: 1399px) {
+    max-width: 400px;
+  }
+  @media (max-width: 1150px) {
+    max-width: 350px;
+  }
+  @media (max-width: 1000px) {
+    max-width: 300px;
+  }
+
+  .brandLine {
+    position: absolute;
+    right: 0;
+    top: 20px;
+  }
+
+  .orderPlanTitle {
+    padding: 0.1rem 0rem 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 1rem 0;
+
+    small {
+      font-family: "Axiforma";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 24px;
+      color: rgba(38, 50, 56, 0.5);
+    }
+    div {
+      display: flex;
+      align-items: center;
+
+      span {
+        font-family: "Axiforma";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 19px;
+        text-align: right;
+        color: #000000 !important;
+        margin-right: 12px;
+      }
+    }
+  }
+
+  .banlance {
+    display: flex;
+    padding: 5px 0px;
+
+    p {
+      font-family: "Axiforma";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 39px;
+      color: #263238;
+      opacity: 1 !important;
+    }
+
+    small {
+      color: #263238;
+      font-family: "Axiforma";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12.14px;
+      line-height: 20px;
+    }
+    span {
+      cursor: pointer;
+      color: #263238;
+
+      margin-left: 16px;
+    }
+  }
+
+  .interest {
+    position: absolute;
+    bottom: 1.3rem;
+    font-family: "Axiforma";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: rgba(38, 50, 56, 0.5);
+  }
+}

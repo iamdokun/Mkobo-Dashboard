@@ -1,0 +1,74 @@
+.progressBarWrap {
+  margin-top: 2rem;
+
+  .progressBar {
+    height: 14px;
+    background: #94b9ff;
+
+    .progress {
+      width: 75%;
+      height: 100%;
+      background: #4181f9;
+    }
+  }
+
+  .transactiionProgress {
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .totlaIn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .totlaInSquare {
+        width: 10px;
+        height: 10px;
+        background-color: #4181f9;
+        margin-right: 7px;
+      }
+      div {
+        font-family: "Axiforma";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 19px;
+        color: #4181f9;
+        padding-top: 3px;
+      }
+
+      .totalLeft {
+        margin-right: 7px;
+      }
+    }
+
+    .totalOut {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .totlaOutSquare {
+        width: 10px;
+        height: 10px;
+        background-color: #94b9ff;
+        margin-left: 7px;
+      }
+
+      div {
+        font-family: "Axiforma";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 19px;
+        color: #94b9ff;
+        padding-top: 3px;
+      }
+
+      .totalRight {
+        margin-right: 7px;
+      }
+    }
+  }
+}

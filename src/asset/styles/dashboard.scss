@@ -1,0 +1,171 @@
+.dashboardWrap {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  background: #eff2f8;
+
+  .sidebarWrap {
+    background: #eff2f8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    min-height: 100vh;
+
+    @media (max-width: 1300px) {
+      width: 200px;
+    }
+  }
+
+  .contentWrap {
+    margin-left: 300px;
+    width: calc(100% - 300px);
+
+    @media (max-width: 1300px) {
+      width: calc(100% - 200px);
+      margin-left: 200px;
+    }
+  }
+
+  .dashboard {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 1rem 3rem;
+
+    h3 {
+      font-family: "Axiforma";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 36px;
+      color: #141623;
+      margin-bottom: 1.5rem;
+    }
+
+    .transactionWrap {
+      //   border: 2px solid red;
+      margin-top: 1rem;
+      display: flex;
+      padding: 2rem 0;
+
+      @media (max-width: 992px) {
+        display: block;
+      }
+
+      .buttonWrap {
+        // border: 1px solid red;
+        text-align: center;
+        margin-top: 2.5rem;
+
+        button {
+          width: 325px;
+          height: 58px;
+          background: #0047cc;
+          border-radius: 5px;
+          color: #fff;
+          font-family: "Axiforma";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 26px;
+          border: none;
+          cursor: pointer;
+        }
+      }
+      .transactions {
+        border-right: 1px solid rgba(0, 71, 204, 0.1);
+        flex: 4;
+        padding-right: 2.5rem;
+
+        .transactionContainer {
+          display: flex;
+          margin-top: 3rem;
+
+          .transactionDividerWrap {
+            flex: 0.5;
+            padding: 0.5rem 0 2.5rem 0;
+            h5 {
+              font-family: "Axiforma";
+              font-style: normal;
+              font-weight: 600;
+              font-size: 12px;
+              line-height: 24px;
+              color: #263238;
+              margin-bottom: 5px;
+            }
+
+            .divider {
+              border-left: 2px solid #0047cc;
+              height: 100%;
+              width: 2px;
+              opacity: 0.1;
+              margin-left: 1rem;
+            }
+          }
+
+          .eachTransaction {
+            flex: 5.5;
+          }
+        }
+      }
+      .quickAction {
+        flex: 2;
+        padding: 2rem;
+
+        h5 {
+          font-family: "Axiforma";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 16px;
+          color: #717171;
+        }
+
+        .actions {
+          margin-top: 2rem;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 1rem;
+        }
+
+        .upgradeAccountWrap {
+          display: grid;
+          grid-template-columns: 2fr;
+          height: 134px;
+          margin-top: 2rem;
+
+          .upgradeAccount {
+            cursor: pointer;
+            background: #0047cc;
+            box-shadow: 0px 4px 16px rgba(32, 32, 35, 0.1);
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 2rem;
+
+            h5 {
+              font-family: "Axiforma";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 14px;
+              line-height: 23px;
+              //   text-align: center;
+              color: #ffffff;
+            }
+
+            p {
+              margin-top: 1rem;
+              font-family: "Axiforma";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 13px;
+              line-height: 18px;
+              color: #c7deff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
